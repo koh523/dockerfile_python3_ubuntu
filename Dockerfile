@@ -9,3 +9,4 @@ RUN apt-get -y upgrade
 RUN apt-get -y install python3 python3-pip
 RUN apt-get -y install git
 RUN apt-get -y install vim
+RUN apt-get install iputils-ping net-tools
