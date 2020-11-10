@@ -11,3 +11,4 @@ RUN apt-get -y install git
 RUN apt-get -y install vim
 RUN apt-get -y install iputils-ping net-tools
 RUN apt-get -y install wget unzip nano
+RUN apt-get -y install python3-venv
